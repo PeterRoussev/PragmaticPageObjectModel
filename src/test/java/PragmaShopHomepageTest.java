@@ -17,9 +17,6 @@ public class PragmaShopHomepageTest extends BaseTest{
         PragmaShopHomepage.selectRegister();
     }
 
-    /**
-     * For successful registration just change the email a bit :)
-     */
     @Test
     private void newCustomerRegistration(){
         goToRegistrationForm();
